@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>Hangman-game | Annie</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="flex" style="background-color: rgb(0, 90, 78); flex-direction: column;">
+        <h1 style="margin: 10px 0;">Hangman-game</h1>
+        <h4>Find a word | Enter a Letter</h4>
+    </div>
+    <div class="main position flex">
+        <div class="popup flex">
+            <h2 class="displayWinOrLost">Unfortunately You LOST 😢</h2>
+            <h4 class="displayWordAfterLoss"></h4>
+            <button class="playAgain">Play Again</button>
+        </div>
+        <div class="hangman-section-right">
+            <div class="deshes"></div>
+        </div>
+        <div class="hangman-section-left">
+            <div class="line"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            <div class="line line4"></div>
+            <div class="displayNone man-circle"></div>
+            <div class="displayNone mans-body"></div>
+            <div class="displayNone mans-body mans-leg-right"></div>
+            <div class="displayNone mans-body mans-leg-left"></div>
+            <div class="displayNone mans-body mans-hand-right"></div>
+            <div class="displayNone mans-body mans-hand-left"></div>
+        </div>
+
+    </div>
+
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>
